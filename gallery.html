@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="our web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, responsive">
+    <meta name="author" content="rezi">
+    <meta property="og:url"                content="https://rezi93.github.io/lesson9.130/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"            content="Where You Want to go" />
+    <meta property="og:description"        content="Get Best Prices" />
+    <meta property="og:image"              content="image/image2.svg" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>gallery.html</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+           
+            <nav id="nav-bar">
+              
+                    <ul class="navmenu">
+                        <a href="index.html">
+                            <img class="logo" src="logo.svg" >
+                           
+                        </a>
+                        <li class="list">
+                            <a class="list-a" href="index.html">home</a>
+                        </li>
+
+                        <li class="list">
+                            <a class="list-a" href="gallery.html">gallery</a>
+                        </li>
+                        <li class="list">
+                            <a class="list-a" href="sign.html">sign-in</a>
+                        </li>
+                    </ul>  
+                </nav>
+                <div class="burger " id="burgerbar">
+                    <div class="line" id="item"></div>
+                    <div class="line" id="item"></div>
+                    <div class="line" id="item"></div>
+                </div>
+            
+            </div>      
+</header>
+<section>
+    <div class="wraper">
+        <button class="arrow-left" ><i class="fa-solid fa-circle-left"></i></button>
+        <button class="arrow-right" ><i class="fa-solid fa-circle-right"></i></button>
+            <div class="slider" id="slider"></div>
+           
+            
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="left-block"> 
+            <h2 class="title"> THE <br>REAL <br> MUSIC</h2>
+        </div>
+        <div class="right-block">
+            <p class="click">click here to listen</p>
+            <div class="atribute">
+                <i class="fa-solid fa-angles-left" id="previues"></i>
+            <i class="fa-brands fa-google-play" id="play"></i>
+            <i class="fa-solid fa-angles-right" id="next"></i>
+            </div>
+        </div>
+    </div>
+    <audio id="mysong">
+        <source src="media/song.aac" type="audio/aac">
+        <source src="media/song2.mp3" type="audio/mp3">
+    </audio>
+</section>
+<footer>
+    <div class="foot-block">
+        <ul>
+        <li class="footlist">
+            <a class="list-a" href="index.html">home</a>
+            <li class="footlist">
+                <a class="list-a" href="gallery.html">gallery</a>
+            </li>
+            <li class="footlist">
+                <a class="list-a" href="sign.html">sign in</a>
+            </li>
+        </li>
+        </ul>
+    </div>
+    <div class="foot-icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-google-plus"></i>
+        </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

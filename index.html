@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="our web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, responsive">
+    <meta name="author" content="rezi">
+    <meta property="og:url"                content="https://rezi93.github.io/lesson9.130/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"            content="Where You Want to go" />
+    <meta property="og:description"        content="Get Best Prices" />
+    <meta property="og:image"              content="image/image2.svg" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>index.html</title>
+</head>
+<body>
+    <header>
+            <div class="header">
+               
+                <nav id="nav-bar">
+                  
+                        <ul class="navmenu">
+                            <a href="index.html">
+                                <img class="logo" src="logo.svg" >
+                               
+                            </a>
+                            <li class="list">
+                                <a class="list-a" href="index.html">home</a>
+                            </li>
+
+                            <li class="list">
+                                <a class="list-a" href="gallery.html">gallery</a>
+                            </li>
+                            <li class="list">
+                                <a class="list-a" href="sign.html">sign in</a>
+                            </li>
+                        </ul>  
+                    </nav>
+                    <div class="burger " id="burgerbar">
+                        <div class="line" id="item"></div>
+                        <div class="line" id="item"></div>
+                        <div class="line" id="item"></div>
+                    </div>
+                
+            </div>
+            
+    </header>
+    <section>
+        <div class="form-div">
+            <img class="form-img" src="image/image.jpg" alt="image">
+    
+         </div>
+         <div class="registration">
+            <h2 class="form-h2">Share your
+                awesomeness</h2>
+         <form id="main" action="" method="post">
+            <div class="username">
+                <label for="user">username</label>
+                <input type="text" name="username" id="user" placeholder="enter username..">
+                <span class="errors-text" id="errors_username"></span>
+            </div>
+            <div class="passw">
+                <label for="pas">password</label>
+                <input type="password" name="password" id="pas" placeholder="enter password">
+                <span class="errors-text" id="errors_password"></span>
+            </div>
+            <div class="passw">
+                <label for="pass">repeat password</label>
+                <input type="password" name=" password2" id="pass" placeholder="repeat password">
+                <span class="errors-text" id="errors_password2"></span>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="male">
+                <label for="male">male</label>
+                <span class="errors-text" id="errors_gender"></span>
+                <input type="radio" name="gender" id="female">
+                <label for="female">female</label>
+                <span class="errors-text" id="errors_gender"></span>
+            </div>
+            <div>
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">i agree</label>
+                <span class="errors-text" id="errors_agree"></span>
+            </div>
+            <button type="submit">registration</button>
+    
+        </form>
+         </div> 
+    </section>
+    <section>
+        <div class="post" id="post-block">
+
+        
+        <div class="overlay" id="over">
+            <div class="content" id="content"></div>
+            <div class="close" id="over-close"><i class="fa-solid fa-circle-xmark"></i></div>
+        </div>
+        </div>
+        <div class="add" id="add"><i class="fa-solid fa-circle-plus" id="addkey"></i></div>
+            <div class="post-cont" id="post-content">
+                <form action="" id="form">
+                    <div>
+                        <label for="title post">post title</label>
+                        <input type="text" name="title" id="titlePost">
+                    </div>
+                    <div>
+                        <label for="postdescr">Post Descritpiton</label>
+                        <input type="text" name="descr" id="postdescr">
+                    </div>
+    
+                    <button id="addFormPost">add post</button>
+                </form>
+            </div>
+
+    </section>
+    <footer>
+        <div class="foot-block">
+            <ul>
+            <li class="footlist">
+                <a class="list-a" href="index.html">home</a>
+                <li class="footlist">
+                    <a class="list-a" href="gallery.html">gallery</a>
+                </li>
+                <li class="footlist">
+                    <a class="list-a" href="sign.html">sign in</a>
+                </li>
+            </li>
+            </ul>
+        </div>
+        <div class="foot-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus"></i>
+            </div>
+    </footer>
+    <script defer src="script.js"></script>
+</body>
+</html>

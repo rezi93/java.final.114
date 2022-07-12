@@ -1,0 +1,300 @@
+.header{
+    max-width: 100%;
+    width: 100%;
+    height: 70px;
+    background-color: darkgrey;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: auto;
+}
+.navmenu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+    
+}
+.list-a{
+    margin:20px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin: 30px;
+}
+.logo{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.form-img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.registration{
+    width: 300px;
+    
+    
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.form-h2{
+    font-size: 40px;
+    color: rgb(237, 39, 39);
+    margin-bottom: 20px;
+}
+.passw{
+    margin-top:20px ;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+.username{
+    flex-direction: column;
+    width: 50px;
+    min-height: 50px;
+}
+.errors-text{
+    display: block;
+    color: red;
+}
+
+/* gallery */
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: lightgoldenrodyellow;
+    border-radius:50px ;
+    width: 25px;
+    border: none;
+}
+
+.dot-box{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 5px;
+}
+.dots-block{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
+}
+.slide-bg{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    
+}
+.container{
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+   
+    display: flex;
+}
+.left-block{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(246, 241, 178);
+}
+.right-block{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(252, 193, 150);
+ 
+}
+.title{
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 6%;
+    color: #fff;
+    line-height: 100px;
+    float: left;
+}
+.fa-google-play{
+    font-size: 50px;
+    color: #fff;
+    
+    
+    cursor: pointer;
+    
+    
+}
+.click{
+    font-size: 40px;
+    color: #fff;
+    margin-top:200px;
+    margin-left: 35%;
+}
+.post {
+    
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+
+}
+.add{
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    color: chartreuse;
+    position:fixed;
+    right: 80px;
+    bottom: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color:darkblue;
+    color: #fff;
+    display: none;
+}
+.overlay.open {
+    display: block;
+}
+.fa-circle-xmark {
+   
+    top:30px;
+    right: 30px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+.post-box{
+    width: 100px;
+    height: 80px;
+    background-color: dodgerblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.delete-btn{
+    background-color: firebrick;
+    margin-top: 10px;
+}
+
+.post-cont {
+    position: fixed;
+    top:0;
+    left:0;
+    width:50%;
+    height: 100%;
+    background-color: darkgray;
+    display: none;
+}
+.post-cont.active {
+    display: block;
+}
+
+/* email passwor */
+
+.fa-solid {
+    font-size: 20px;
+    color: rgb(16, 15, 14);
+}
+/* .bg-image{
+    background-image: url(../image/headphone.jpg);
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+} */
+#form-email{
+
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 200px;
+    height: auto;
+    
+}
+.headphone{
+    max-width: 100%;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.email{
+    width: 200px;
+    border: none;
+    margin-bottom: 20px;
+}
+.sign{
+    background-color: rgb(27, 239, 27);
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 50px;
+    width: 80px;
+    height: 40px;
+}
+
+.atribute{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+}
+.fa-angles-left{
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.fa-angles-right{
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+   
+
+}
+.foot-block{
+    display: flex;
+}
+.fa-google-plus{
+    font-size: 30px;
+    color: red;
+}
+
+
+.fa-twitter{
+    font-size: 30px;
+    color: blue;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: rgb(38, 38, 242);
+}

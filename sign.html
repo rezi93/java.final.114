@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="our web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, responsive">
+    <meta name="author" content="rezi">
+    <meta property="og:url"                content="https://rezi93.github.io/lesson9.130/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"            content="Where You Want to go" />
+    <meta property="og:description"        content="Get Best Prices" />
+    <meta property="og:image"              content="image/image2.svg" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+           
+            <nav id="nav-bar">
+              
+                    <ul class="navmenu">
+                        <a href="index.html">
+                            <img class="logo" src="logo.svg" >
+                           
+                        </a>
+                        <li class="list">
+                            <a class="list-a" href="index.html">home</a>
+                        </li>
+
+                        <li class="list">
+                            <a class="list-a" href="gallery.html">gallery</a>
+                        </li>
+                        <li class="list">
+                            <a class="list-a" href="sign.html">sign-in</a>
+                        </li>
+                    </ul>  
+                </nav>
+                <div class="burger " id="burgerbar">
+                    <div class="line" id="item"></div>
+                    <div class="line" id="item"></div>
+                    <div class="line" id="item"></div>
+                </div>
+            
+            </div>      
+</header>
+
+<section>
+    <div class="bg-image">
+   <img class="headphone" src="image/headphone.jpg" alt="">
+    </div>
+    <form action="" id="form-email">
+        <div class="email">
+            <input type="email" id="Email" name="email" placeholder="enter email" onkeydown="validation()">
+            <input type="checkbox" id="save">
+            <span id="email-text"></span>
+        </div>
+        <div class="pasword">
+            <input type="password" id="ps" name="password" placeholder="enter password">
+            <i id="Icon" class="fa-solid fa-eye"></i>
+        
+        <button class="sign" type="submit">sign-in</button>
+    </form>
+    </div>
+</section>
+<footer>
+    <div class="foot-block">
+        <ul>
+        <li class="footlist">
+            <a class="list-a" href="index.html">home</a>
+            <li class="footlist">
+                <a class="list-a" href="gallery.html">gallery</a>
+            </li>
+            <li class="footlist">
+                <a class="list-a" href="sign.html">sign in</a>
+            </li>
+        </li>
+        </ul>
+    </div>
+    <div class="foot-icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-google-plus"></i>
+        </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
