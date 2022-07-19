@@ -66,24 +66,8 @@
     color: rgb(237, 39, 39);
     margin-bottom: 20px;
 }
-.container{
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    display: flex;
-    
-}
-.left-block{
-    width: 50%;
-    height: auto;
-    background-color: rgb(246, 241, 178);
-}
-.right-block{
-    width: 50%;
-    height: auto;
-    background-color: rgb(252, 193, 150);
- 
-}
+
+
   
 
 }
